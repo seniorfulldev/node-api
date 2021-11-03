@@ -8,6 +8,10 @@ module.exports = (sequelize, Sequelize) => {
     },
     password: {
       type: Sequelize.STRING
+    },
+    plan_id: {
+      type: Sequelize.INTEGER(11),
+      defaultValue: 5
     }
   });
 
